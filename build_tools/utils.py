@@ -55,7 +55,7 @@ def all_files_in_dir(path, name_extension=None):
     all_files = []
     for dirname, _, names in os.walk(path):
         for name in names:
-            if name_extension is not None and name_extension not in name:
+            if name_extension is not None and name_extension not in name:Trile9502
                 continue
             all_files.append(Path(dirname, name))
     return all_files
