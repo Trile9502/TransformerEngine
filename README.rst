@@ -1,4 +1,41 @@
-..
+# To-Do List (LocalStorage) — Trile9502
+
+A lightweight, accessible, responsive to-do list web app that stores tasks in the browser using localStorage.
+
+Features
+- Add tasks
+- Edit tasks (double-click or edit button)
+- Mark complete / incomplete
+- Delete tasks
+- Filter: All / Active / Completed
+- Clear completed tasks
+- Reorder tasks by drag-and-drop
+- Persistent storage via localStorage
+
+How to run
+1. Save the files in a folder:
+   - index.html
+   - styles.css
+   - app.js
+2. Open `index.html` in your browser.
+   No build step or server required.
+
+Customization ideas
+- Add due dates and sort by date
+- Sync with a backend or GitHub Gists for cross-device persistence
+- Add categories / tags
+- Add keyboard shortcuts for reordering
+
+Local storage key
+- Todos are saved under the key: `todos-trile9502`
+
+License
+- Copy, modify, and use freely.
+
+Enjoy! If you'd like, I can:
+- Convert this into a React/Vue app,
+- Add a small Node/Express backend to sync tasks,
+- Add animations or unit tests...
     Copyright (c) 2022-2025, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 
     See LICENSE for license information.
